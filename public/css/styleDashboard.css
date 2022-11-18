@@ -1,0 +1,121 @@
+
+
+
+
+.card1 {
+    height: 290px;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    border-radius: 8px ;
+    margin-bottom: 20px;
+    background-image: url('../image/imagem90.png');
+    background-size: 500px;
+    width: 30%;
+    @include media {
+      height: 500px;
+    }
+    text-align: center;
+  }
+  
+  .inner {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    box-sizing: border-box;
+    padding: 10px;
+    
+    @include media {
+      width: 50%;
+      height: 100%;
+    }
+  }
+  
+  .title {
+    font-size: 28px;
+    color: rgb(255, 255, 255);  
+    text-align: center;
+    font-weight: 800;
+    color: #ffffff;
+
+    position: relative;
+    margin: 0 0 20px 0;
+    
+    @include media {
+      font-size: 30px;
+    }
+  }
+  
+  .subtitle {
+    color: #b0215e;
+    text-align: center;
+  }
+  
+
+  .card2 {
+    height: 290px;
+    margin-top: 5%;
+    margin-left: 55%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    border-radius: 8px ;
+    margin-bottom: 20px;
+    background-image: url('../image/imagem90.png');
+    background-size: 500px;
+    width: 30%;
+    @include media {
+      height: 500px;
+    }
+    text-align: center;
+  }
+  
+  .inner {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    box-sizing: border-box;
+    padding: 10px;
+    
+    @include media {
+      width: 50%;
+      height: 100%;
+    }
+  }
+  
+  .title {
+    font-size: 28px;
+    color: rgb(255, 255, 255);  
+    text-align: center;
+    font-weight: 800;
+    color: #ffffff;
+
+    position: relative;
+    margin: 0 0 20px 0;
+    
+    @include media {
+      font-size: 30px;
+    }
+  }
+  
+  .subtitle {
+    color: #b0215e;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
